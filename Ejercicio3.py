@@ -4,7 +4,7 @@ from tkinter import ttk
 import tkinter as ttk
 
 raiz = Tk()
-raiz.geometry("1000x1000")
+raiz.geometry("1250x650")
 raiz.configure(background="black")
 
 MenuFrame = ttk.Frame(raiz,background="turquoise4")
@@ -76,27 +76,27 @@ imagenb = ttk.Button(MenuFrame,background="turquoise4",relief="flat")
 imagenb.grid(column=0,row=0,sticky=(W))
 imagenb['image'] = imagen3
 
-imagen5 = PhotoImage(file="tem1.png")
+imagen5 = PhotoImage(file="Temperatura1.png")
 imagenT1 = ttk.Button(DerFrame,background="#333333",relief="flat")
 imagenT1.grid(column=0,row=2,sticky=(W))
 imagenT1['image'] = imagen5
 
-imagen6 = PhotoImage(file="tem2.png")
+imagen6 = PhotoImage(file="Temperatura2.png")
 imagenT2 = ttk.Button(DerFrame,background="#333333",relief="flat")
 imagenT2.grid(column=1,row=2,sticky=(W))
 imagenT2['image'] = imagen6
 
-imagen7 = PhotoImage(file="imagenG.png")
+imagen7 = PhotoImage(file="Grafica.png")
 imagenG = ttk.Button(produccionFrame,background="#333333",relief="flat")
 imagenG.grid(column=0,row=1,sticky=(W))
 imagenG['image'] = imagen7
 
-imagen8 = PhotoImage(file="imagen 4.png")
+imagen8 = PhotoImage(file="Velocidad.png")
 imagen4 = ttk.Button(DerAbajoFrame,background="#333333",relief="flat")
 imagen4.grid(column=0,row=1,sticky=(W))
 imagen4['image'] = imagen8
 
-imagen9 = PhotoImage(file="imagen tanque.png")
+imagen9 = PhotoImage(file="Tanque.png")
 imagenTan = ttk.Button(DerAbajoFrame1,background="#333333",relief="flat")
 imagenTan.grid(column=0,row=1,sticky=(W))
 imagenTan['image'] = imagen9
